@@ -1,0 +1,44 @@
+/* Add some basic styling for the page */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a container to center the content */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  /* Add some styling for the numbers */
+  .number {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Add some styling for the button */
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Display the numbers as a row */
+#numbers {
+    display: flex;
+  }
+  
+  /* Add some space between the numbers */
+  .number {
+    margin: 10px 10px;
+  }
+  
